@@ -1,8 +1,11 @@
 import sys
 import json
 import pandas as pd
+import credentials
 from ibm_watson import AssistantV2
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
+
+
 
 ##########################
 # Getting data from GitHub table
@@ -14,7 +17,7 @@ table=pd.read_csv(url, index_col=0)
 ###########################
 # Set up Authenticators
 ###########################
-authenticator = IAMAuthenticator('pvBJMVAmpAiuICOy8pPAePIhcazNEqNKzdM6s93jVcWb')
+authenticator = IAMAuthenticator(credentials.api_key)
 assistant = AssistantV2(
     version='2020-04-01',
     authenticator=authenticator)
@@ -24,23 +27,35 @@ assistant.set_service_url('https://api.us-south.assistant.watson.cloud.ibm.com/'
 # Start Session
 #########################
 
-session = assistant.create_session("d8ec0377-fe74-451c-8214-01e9f01a6e6d").get_result()
+session = assistant.create_session(credentials.assistant_id).get_result()
 session_id=session["session_id"]
 
 #########################
 # Set Context
 #########################
 
-ctx= asda
-
-
+ctx= {
+        'global': {
+            'system': {
+                'user_id': 'my_user_id'
+            }
+        },
+        'skills': {
+            'main skill': {
+                'user_defined': {
+                    'account_number': '123456'
+                    'some_other_var' : 'fuck u'
+                }
+            }
+        }
+    }
 
 #######################
 # Deploy Context to Watson
 #######################
 
 message=assistant.message(
-    assistant_id='d8ec0377-fe74-451c-8214-01e9f01a6e6d',
+    assistant_id=credentials.assistant_id,
     session_id='{}'.format(session_id),
     input={
         'message_type': 'text',
@@ -61,5 +76,5 @@ print("\nREQUEST FINISHED WITH STATUS CODE " + str(message.get_status_code()))
 # Delete Session
 ###################
 
-assistant.delete_session("d8ec0377-fe74-451c-8214-01e9f01a6e6d", "{}".format(session_id))\
+assistant.delete_session(credentials.assistant_id, "{}".format(session_id))\
          .get_result()
