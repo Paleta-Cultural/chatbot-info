@@ -1,0 +1,2219 @@
+{
+  "intents": [
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Bom dia, como você está?"
+        },
+        {
+          "text": "Boa tarde , você está ai?"
+        },
+        {
+          "text": "Oii"
+        },
+        {
+          "text": "Ei, você está aí?"
+        },
+        {
+          "text": "Como estão as coisas aí?"
+        },
+        {
+          "text": "Olá, pode me ajudar?"
+        },
+        {
+          "text": "Obrigado só pensei de dar um oi como seu nome apareceu"
+        },
+        {
+          "text": "Meu querido amigo que prazer é falar com você se você pudesse imaginar"
+        },
+        {
+          "text": "Eu tenho algumas perguntas, por favor, deixe-me falar primeiro"
+        },
+        {
+          "text": "Eu não pedi para falar com um agente. Eu estava falando olá/oi para você"
+        },
+        {
+          "text": "Eu gostaria de conversar com o Watson."
+        }
+      ],
+      "description": "Cumprimente o robô."
+    },
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "Bom trabalho."
+        },
+        {
+          "text": "Com certeza!"
+        },
+        {
+          "text": "Com certeza. Estou empolgado com isso."
+        },
+        {
+          "text": "É disso que preciso."
+        },
+        {
+          "text": "Essa é a resposta apropriada."
+        },
+        {
+          "text": "Essa é a resposta certa."
+        },
+        {
+          "text": "Essa é a resposta pela qual procurava."
+        },
+        {
+          "text": "Está muito bom."
+        },
+        {
+          "text": "É exatamente disso que preciso."
+        },
+        {
+          "text": "Eu gostei disso."
+        },
+        {
+          "text": "Genial!"
+        },
+        {
+          "text": "Ignore o que eu falei."
+        },
+        {
+          "text": "Você me entende."
+        },
+        {
+          "text": "Você leu minha mente."
+        },
+        {
+          "text": "Ótimo."
+        },
+        {
+          "text": "Sim, é isso!"
+        },
+        {
+          "text": "Nós precisamos exatamente disso."
+        },
+        {
+          "text": "Muito bem. Vamos fazê-lo."
+        },
+        {
+          "text": "Isso está certo."
+        },
+        {
+          "text": "Afirmativo! É por isso que eu estava procurando."
+        }
+      ],
+      "description": "Confirme que a resposta satisfaz uma pergunta."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Genial! Isso é exatamente o que eu pensei."
+        },
+        {
+          "text": "Você é o cara."
+        },
+        {
+          "text": "Você me deu exatamente o que eu precisava."
+        },
+        {
+          "text": "Você é legal."
+        },
+        {
+          "text": "Você é inteligente."
+        },
+        {
+          "text": "Você detonou."
+        },
+        {
+          "text": "Você é demais."
+        },
+        {
+          "text": "Você é adorável."
+        },
+        {
+          "text": "Ótimo!"
+        },
+        {
+          "text": "Muito obrigado."
+        },
+        {
+          "text": "É muito louco o que um robô pode fazer."
+        },
+        {
+          "text": "Muito inteligente."
+        },
+        {
+          "text": "Isso é muito legal."
+        },
+        {
+          "text": "Isso é divertido."
+        },
+        {
+          "text": "Incrível como você é bom!"
+        },
+        {
+          "text": "Gostei muito do seu trabalho."
+        },
+        {
+          "text": "Eu gostei do que você fez aí."
+        },
+        {
+          "text": "Estou pegando a manha disso."
+        },
+        {
+          "text": "Estou impressionado com você."
+        },
+        {
+          "text": "Espero trabalhar com você novamente."
+        },
+        {
+          "text": "Muito bom, obrigado."
+        }
+      ],
+      "description": "Exprima sentimento positivo ou gratidão."
+    },
+    {
+      "intent": "Data",
+      "examples": [
+        {
+          "text": "datas"
+        },
+        {
+          "text": "A viagem está marcada para qual data?"
+        },
+        {
+          "text": "Gostaria de saber quando será a viagem"
+        },
+        {
+          "text": "Queria saber quando vamos viajar?"
+        },
+        {
+          "text": "Que dia viajaremos?"
+        },
+        {
+          "text": "Quando será a viagem?"
+        },
+        {
+          "text": "Qual é o dia que iremos viajar?"
+        },
+        {
+          "text": "Qual é a data da viagem?"
+        },
+        {
+          "text": "Em que data está marcada a partida?"
+        },
+        {
+          "text": "quero saber que dia vai ser a viagem"
+        }
+      ],
+      "description": "Pessoa quer saber datas dos eventos"
+    },
+    {
+      "intent": "Hoteis",
+      "examples": [
+        {
+          "text": "saber sobre os hotéis"
+        },
+        {
+          "text": "hospedagem"
+        },
+        {
+          "text": "Gostaria de saber sobre a hospedagem na viagem"
+        },
+        {
+          "text": "Queria saber onde vamos ficar na viagem"
+        },
+        {
+          "text": "Em que hotel vamos dormir?"
+        },
+        {
+          "text": "Aonde vamos ficar?"
+        },
+        {
+          "text": "Onde será a hospedagem?"
+        },
+        {
+          "text": "Em que hotel vamos nos hospedar?"
+        },
+        {
+          "text": "Aonde dormiremos?"
+        },
+        {
+          "text": "hotel"
+        },
+        {
+          "text": "Em qual hotel ficaremos?"
+        }
+      ],
+      "description": "Pessoa quer saber informações sobre hospedagem"
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Oi Tom. Que tipo de coisas você pode fazer por mim?"
+        },
+        {
+          "text": "Posso verificar quais opções estão disponíveis com o agente?"
+        },
+        {
+          "text": "Preciso de ajuda geral sobre o agente virtual"
+        },
+        {
+          "text": "Quais são as diferentes coisas com que você pode me ajudar, e para que eu preciso contatar um representante humano ..."
+        },
+        {
+          "text": "Qual ajuda você pode fornecer?"
+        },
+        {
+          "text": "Quero saber com que você pode me ajudar./Quero saber com que coisas você pode me ajudar."
+        },
+        {
+          "text": "Tom pode listar quais áreas você pode fornecer ajuda?"
+        },
+        {
+          "text": "Você fornece ajuda geral? Eu não sei o que eu posso te perguntar"
+        },
+        {
+          "text": "Você pode responder uma pergunta frequente sobre o agente?"
+        },
+        {
+          "text": "O que você sabe fazer?"
+        },
+        {
+          "text": "Quero ajuda"
+        },
+        {
+          "text": "O que você mais gosta de fazer?"
+        },
+        {
+          "text": "Ajude-me a ler o medidor e registrar o uso"
+        },
+        {
+          "text": "Quem pode me ajudar a realizar meu pedido."
+        },
+        {
+          "text": "Continue esperando por favor"
+        },
+        {
+          "text": "Eu estou tendo alguns problemas e gostaria de alguma informação sobre como obter alguma ajuda"
+        },
+        {
+          "text": "Eu gostaria de saber como você pode me ajudar"
+        },
+        {
+          "text": "Eu preciso de ajuda, alguém pode me ajudar?"
+        },
+        {
+          "text": "Oi Tom, quais tipos de coisas você pode me ajudar com o telefone?"
+        },
+        {
+          "text": "O que você pode fazer para me ajudar"
+        }
+      ],
+      "description": "Solicite recursos de robô."
+    },
+    {
+      "intent": "General_Info",
+      "examples": [
+        {
+          "text": "Quero saber sobre a Paleta"
+        },
+        {
+          "text": "quero informações"
+        },
+        {
+          "text": "quero saber sobre uma coisa"
+        },
+        {
+          "text": "quero informações sobre algo"
+        },
+        {
+          "text": "Gostaria de informações sobre a Paleta?"
+        },
+        {
+          "text": "Gostaria de saber quem são vocês"
+        },
+        {
+          "text": "Gostaria de saber sobre o trabalho de vocês"
+        },
+        {
+          "text": "Quero informações sobre os integrantes da empresa"
+        },
+        {
+          "text": "Qual é o objetivo da empresa?"
+        }
+      ],
+      "description": "Pessoa quer saber informações gerais da empresa"
+    },
+    {
+      "intent": "Programação",
+      "examples": [
+        {
+          "text": "Quero saber a programação de um evento"
+        },
+        {
+          "text": "Quais lugares vamos conhecer na viagem?"
+        },
+        {
+          "text": "Quais passeios nós faremos durante a viagem?"
+        },
+        {
+          "text": "passeios"
+        },
+        {
+          "text": "programação"
+        },
+        {
+          "text": "Qual lugares vamos visitar?"
+        },
+        {
+          "text": "Qual a programação da viagem?"
+        }
+      ],
+      "description": "Pessoa quer saber quais serão as atividades de um evento."
+    },
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "O que você me deu não é o que eu estava procurando."
+        },
+        {
+          "text": "Não é isso."
+        },
+        {
+          "text": "Isso não estava correto. Esqueçamos."
+        },
+        {
+          "text": "Você não faz idéia."
+        },
+        {
+          "text": "Você não entendeu o que eu pedi."
+        },
+        {
+          "text": "A resposta está incorreta."
+        },
+        {
+          "text": "Essa não foi a minha intenção."
+        },
+        {
+          "text": "Essa parece ser a resposta errada."
+        },
+        {
+          "text": "Eu não acho que essa seja a resposta."
+        },
+        {
+          "text": "Eu não disse isso."
+        },
+        {
+          "text": "Eu não entendo o que você está dizendo."
+        },
+        {
+          "text": "Eu não falei sobre isso."
+        },
+        {
+          "text": "Eu não preciso disso."
+        },
+        {
+          "text": "Eu não quis dizer isso."
+        },
+        {
+          "text": "Eu não quero isso."
+        },
+        {
+          "text": "Isso estava errado, tente novamente."
+        },
+        {
+          "text": "Isso não é o que quero dizer."
+        },
+        {
+          "text": "Não estou entendendo."
+        },
+        {
+          "text": "O que você me deu não foi exatamente o que pedi."
+        },
+        {
+          "text": "Você está me entendendo mal."
+        },
+        {
+          "text": "Você não compreendeu o que perguntei."
+        }
+      ],
+      "description": "Indique que a resposta do robô não aborda uma questão."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Você é espertinho?"
+        },
+        {
+          "text": "Você não vale nada."
+        },
+        {
+          "text": "Você é ruim mesmo?"
+        },
+        {
+          "text": "Vá para a puta que pariu!"
+        },
+        {
+          "text": "Vá para o inferno!"
+        },
+        {
+          "text": "Vá se foder!"
+        },
+        {
+          "text": "Você é chato?"
+        },
+        {
+          "text": "Você está me entediando."
+        },
+        {
+          "text": "Você é uma piada?"
+        },
+        {
+          "text": "Por que você é retardado?"
+        },
+        {
+          "text": "Porra, como posso falar com uma pessoa real?"
+        },
+        {
+          "text": "Seja bom uma vez na vida."
+        },
+        {
+          "text": "Sua mãe."
+        },
+        {
+          "text": "Tchau, vagabunda."
+        },
+        {
+          "text": "Todo mundo te odeia."
+        },
+        {
+          "text": "Uma experiência horrível, com certeza!"
+        },
+        {
+          "text": "Você é burro."
+        },
+        {
+          "text": "Você está fora de si?"
+        }
+      ],
+      "description": "Expresse feedback desfavorável."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Oi Tom. Eu queria saber se você poderia me direconionar/conectar para um agente humano para que eu possa completar meu pedido?"
+        },
+        {
+          "text": "Por favor me conectar a um agente humano que é fluente em inglês."
+        },
+        {
+          "text": "Por favor pode me conectar com a Vaishali K? Minha conversação foi desconectada"
+        },
+        {
+          "text": "Por favor, você pode entrar em contato comigo com um agente humano?"
+        },
+        {
+          "text": "Posso falar com um agente sobre minha conta"
+        },
+        {
+          "text": "Posso ter informações de contato para falar com um agente ao vivo."
+        },
+        {
+          "text": "Você pode me enviar um número de telefone para falar com um representante de vendas?"
+        },
+        {
+          "text": "Você pode por favor me transferir para alguém que possa me ajudar, eu mandei um e-mail para você e você não leu direito e simplesmente saiu."
+        },
+        {
+          "text": "Eu quero tentar o seu agente virtual."
+        },
+        {
+          "text": "Quero falar com alguém de outra área."
+        },
+        {
+          "text": "Você pode me conectar com uma pessoa real?"
+        },
+        {
+          "text": "Preciso contatar a um atendente"
+        },
+        {
+          "text": "Pode me provar que é um representante?"
+        },
+        {
+          "text": "Bem agora eu gostaria de falar com um agente sobre algumas cobranças"
+        },
+        {
+          "text": "Eu preciso falar com um representante. Como posso fazer isso?"
+        },
+        {
+          "text": "Eu quero contatar um agente/Eu quero entrar em contato com um agente"
+        },
+        {
+          "text": "Eu vou falar com um agente/ Eu vou falar com um agente de suporte."
+        },
+        {
+          "text": "Existe alguém com quem eu posso realmente falar de verdade?"
+        },
+        {
+          "text": "Isso é muito frustrante, eu quero falar com uma pessoa de verdade real."
+        },
+        {
+          "text": "Ok deixe-me tentar outra vez. Eu estou tentando falar com um ser humano para resolver diversos problemas faz tempão e dado que o meu telefone bloqueado eu preciso falar diretamente com alguém que entende a conta e pode consertar isso"
+        }
+      ],
+      "description": "Solicite um agente humano."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Que medidas de segurança são usados para assegurar que esta conversa é segura?"
+        },
+        {
+          "text": "Usuário quer garantia de que qualquer informação que ele forneça no bate-papo está protegida e segura."
+        },
+        {
+          "text": "Você está a salvo de hackers/pirata informáticos?"
+        },
+        {
+          "text": "Você pode garantir a privacidade desta conversa?"
+        },
+        {
+          "text": "Vocês contratam alguma empresa para auxiliar na proteção de dados?"
+        },
+        {
+          "text": "Você me ajudaria a manter minhas informações seguras?"
+        },
+        {
+          "text": "Existe um documento de perguntas frequentes para este chat-bot?"
+        },
+        {
+          "text": "O meu dispositivo está protegido?"
+        },
+        {
+          "text": "Como posso obter informações de perda?"
+        },
+        {
+          "text": "Gostaríamos de apresentar uma solicitação de seguro para o aquecedor de fumaça"
+        },
+        {
+          "text": "As informações do cartão de crédito são criptografadas e mantidas seguras?"
+        },
+        {
+          "text": "Como eu posso saber que essa conversa não é um golpe?"
+        },
+        {
+          "text": "Como impedir o acesso não autorizado à minha conta?"
+        },
+        {
+          "text": "Esse chat é oficial?"
+        },
+        {
+          "text": "Este é um site de bate-papo confiável?"
+        },
+        {
+          "text": "Eu entrei infomação do meu cartão em seu site para pagar minha conta - você pode me certificar que esses detalhes são salvos de forma segura?"
+        },
+        {
+          "text": "Eu preciso de uma garantia."
+        },
+        {
+          "text": "Minha informação de pagamento pessoal é mantida de forma segura?"
+        },
+        {
+          "text": "Nossa comunicação é privada?"
+        },
+        {
+          "text": "Onde posso encontrar seu certificado de segurança?"
+        },
+        {
+          "text": "O que você faz pela segurança de seus clientes?"
+        },
+        {
+          "text": "Os dados dessa conversa são armazenados com segurança?"
+        },
+        {
+          "text": "Posso passar informações confidenciais aqui?"
+        }
+      ],
+      "description": "Exprima preocupações sobre a segurança do robô."
+    },
+    {
+      "intent": "Preços",
+      "examples": [
+        {
+          "text": "Gostaria de saber o preço"
+        },
+        {
+          "text": "Quanto devo pagar para ir para a Europa com vocês?"
+        },
+        {
+          "text": "Quais são as condições de pagamento da viagem?"
+        },
+        {
+          "text": "Com quais métodos de pagamento vocês trabalham?"
+        },
+        {
+          "text": "Quero saber qual é o preço da viagem"
+        },
+        {
+          "text": "Gostaria de saber o preço da viagem"
+        },
+        {
+          "text": "Qual o valor da viagem?"
+        },
+        {
+          "text": "Qual o valor do investimento?"
+        },
+        {
+          "text": "preço"
+        },
+        {
+          "text": "Quanto custa a viagem?"
+        }
+      ],
+      "description": "Pessoa quer saber preços dos produtos Paleta"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Obrigado por responder todas as minhas perguntas. Tchau"
+        },
+        {
+          "text": "Obrigada, tchau!"
+        },
+        {
+          "text": "Muito obrigado pelo seu tempo. Me desculpe, mas eu tenho que ir. Até logo!"
+        },
+        {
+          "text": "Me tire daqui."
+        },
+        {
+          "text": "Falo contigo depois. Tchau"
+        },
+        {
+          "text": "Eu preciso correr porque acabei de notar que estou atrasado para o meu próximo compromisso"
+        },
+        {
+          "text": "Eu estou indo agora. Tenha um bom dia. Tchau"
+        },
+        {
+          "text": "Estou indo embora."
+        },
+        {
+          "text": "Estou cansado de digitar agora. Obrigado e adeus"
+        },
+        {
+          "text": "Desculpe ter ocupado tanto do seu tempo. Eu sei que estamos os dois ocupados e acho que tenho que dizer tchau por ora.."
+        },
+        {
+          "text": "Volto mais tarde."
+        },
+        {
+          "text": "Tudo bem, eu tenho tudo o que eu precisava"
+        },
+        {
+          "text": "Com licença, tenho que ir agora"
+        },
+        {
+          "text": "Vejo você mais tarde."
+        },
+        {
+          "text": "Ainda não terminou?"
+        },
+        {
+          "text": "Adeus."
+        },
+        {
+          "text": "Vou sair agora. Tchau"
+        },
+        {
+          "text": "Você foi de pouca ajuda, por isso não quero falar com você mais, tchau"
+        },
+        {
+          "text": "Vamos dar uma pausa e tentar novamente mais tarde..Tchau"
+        },
+        {
+          "text": "Te desejo o melhor de sorte..Tchau"
+        },
+        {
+          "text": "Quero encerrar a conversa, obrigado."
+        },
+        {
+          "text": "pare esta sessão agora..Tchau"
+        },
+        {
+          "text": "Ok, isso é tudo que eu preciso para agora."
+        },
+        {
+          "text": "Obrigado pela sua ajuda, mas ainda estou confuso…tchau"
+        }
+      ],
+      "description": "Termine a conversa."
+    }
+  ],
+  "entities": [
+ {
+      "entity": "Viagens",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Paris",
+          "synonyms": [
+            "paris",
+            "frança",
+            "curso em paris",
+            "Curso de História da Arte na França",
+            "Curso no Louvre",
+            "aulas no louvre",
+            "museus de paris",
+            "museu do louvre"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Inhotim",
+          "synonyms": [
+            "arte contemporânea em minas",
+            "minas gerais inhotim",
+            "instituto inhotim"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Itália",
+          "synonyms": [
+            "Renascimento e Barroco",
+            "Roma e Florença",
+            "Firenze",
+            "Rome",
+            "viagem em janeiro",
+            "Florence",
+            "janeiro na itália"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nova Iorque",
+          "synonyms": [
+            "NY",
+            "NYC",
+            "Nova Iorque",
+            "New York",
+            "Nova York"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ouro Preto e Mariana",
+          "synonyms": [
+            "ouro preto",
+            "mariana",
+            "cidades históricas",
+            "minas gerais",
+            "ouro preto com gian",
+            "ouro preto anglo",
+            "viagem do anglo",
+            "cidades mineiras"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cordisburgo",
+          "synonyms": [
+            "Cordis",
+            "cidade de Guimarães Rosa",
+            "cidade em Minas",
+            "Guimarães"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+{
+      "entity": "CursosPresenciais",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Curso 2º Semestre",
+          "synonyms": [
+            "curso no segundo semestre",
+            "aulas no segundo semestre",
+            "segunda parte do curso em sp",
+            "aulas em são paulo no segundo semestre"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Curso 1º Semestre",
+          "synonyms": [
+            "curso em sp",
+            "aulas em são paulo",
+            "Curso de História da Arte em São Paulo",
+            "curso presencial sp",
+            "aulas de história da arte na barra funda",
+            "aulas no espaço BREU",
+            "curso no 1º semestre",
+            "aulas no primeiro semestre"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "VisitasGuiadas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "MASP",
+          "synonyms": [
+            "aula no masp",
+            "anglo no museu",
+            "museu de arte de sp",
+            "museu na paulista",
+            "visita guiada ao museu",
+            "aula no museu",
+            "visita ao masp"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Expressão Urbana",
+          "synonyms": [
+            "caminhada de graffiti",
+            "tour de grafiti",
+            "tour de grafite",
+            "aula na cidade",
+            "passeio na cidade",
+            "passeio no centro",
+            "caminhada em sp",
+            "expressão urbana"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pinacoteca",
+          "synonyms": [
+            "Pina",
+            "Pinacoteca do Estado",
+            "visita a museu",
+            "visita guiada a pinacoteca",
+            "anglo no museu"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-percentage",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fico muito feliz por ter ajudado. Gostaria de mais alguma coisa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1578007535293",
+      "disabled": true,
+      "dialog_node": "response_3_1578762956025"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1578009335049",
+      "variable": "$Viagens",
+      "dialog_node": "slot_3_1578812783234",
+      "previous_sibling": "slot_1_1578860399440"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1578009335049",
+      "variable": "$Viagens",
+      "dialog_node": "slot_1_1578860399440",
+      "previous_sibling": "handler_1_1578812782952"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "HOSPEDAGEM NY- COMPLETAR"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1578009335049",
+      "conditions": "$Viagens:(Nova Iorque)",
+      "dialog_node": "response_2_1578009370824",
+      "previous_sibling": "slot_3_1578812783234"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "HOSPEDAGEM CORD:IS:BurGO:"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1578009335049",
+      "conditions": "$Viagens:Cordisburgo",
+      "dialog_node": "response_6_1578867148164",
+      "previous_sibling": "response_3_1578867122366"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "HOSPEDAGEM EUROPA- COMPLETAR"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1578009335049",
+      "conditions": "$Viagens:(Europa)",
+      "dialog_node": "response_9_1578867094939",
+      "previous_sibling": "response_2_1578009370824"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "HOSPEDAGEM I::NHOTI:M"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1578009335049",
+      "conditions": "$Viagens:(Inhotim)",
+      "dialog_node": "response_3_1578867122366",
+      "previous_sibling": "response_9_1578867094939"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1578009335049",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1578812782952"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1578860399440",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1578860399457",
+      "previous_sibling": "handler_5_1578860399457"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_1_1578860399440",
+      "context": {
+        "Viagens": "@Viagens"
+      },
+      "conditions": "@Viagens",
+      "event_name": "input",
+      "dialog_node": "handler_5_1578860399457"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "Bem-vindo",
+      "variable": "$Costumer_name",
+      "dialog_node": "slot_5_1578861326255",
+      "previous_sibling": "handler_1_1578861325721"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Como posso te ajudar?"
+              },
+              {
+                "text": "Oi, Posso ajudar em algo?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "disabled": true,
+      "dialog_node": "response_3_1578001190773",
+      "previous_sibling": "slot_5_1578861326255"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "Bem-vindo",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1578861325721"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "time": 500,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "De qual evento você gostaria de saber?"
+              },
+              {
+                "text": "Em qual experiência você está interessado?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_2_1578862044990",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1578862044995",
+      "previous_sibling": "handler_7_1578862044995"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1578862044990",
+      "context": {
+        "Viagens": "$Viagens"
+      },
+      "conditions": "$Viagens",
+      "event_name": "input",
+      "dialog_node": "handler_7_1578862044995"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "time": 250,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "O que você gostaria de saber sobre a viagem para $Viagens? Hospedagem, programação,  preços ou datas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_4_1578809052332",
+      "context": {
+        "Viagens": "Nova Iorque"
+      },
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "@Viagens",
+      "event_name": "filled",
+      "dialog_node": "handler_4_1578853049600",
+      "previous_sibling": "handler_5_1578809052351"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "slot_4_1578809052332",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1578809052351",
+      "previous_sibling": "handler_2_1578809052351"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1578809052332",
+      "context": {
+        "Viagens": "@Viagens"
+      },
+      "conditions": "@Viagens",
+      "event_name": "input",
+      "dialog_node": "handler_2_1578809052351"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "De qual evento você está falando?",
+            "Você quer saber sobre as acomodações de qual viagem?",
+            "Sobre qual evento você quer saber?",
+            "Você quer saber sobre quais hotéis?"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "slot_3_1578812783234",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1578812783247",
+      "previous_sibling": "handler_1_1578812783247"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1578812783234",
+      "context": {
+        "Viagens": "$Viagens"
+      },
+      "conditions": "$Viagens",
+      "event_name": "input",
+      "dialog_node": "handler_1_1578812783247"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Espero melhorar para ser mais útil numa próxima!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1578693258336",
+      "conditions": "#General_Negative_Feedback || #Bot_Control_Reject_Response",
+      "dialog_node": "node_7_1578805505629",
+      "previous_sibling": "node_6_1578805418949"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fico feliz que você gostou, até a próxima"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1578693258336",
+      "conditions": "#General_Positive_Feedback || #Bot_Control_Approve_Response",
+      "dialog_node": "node_6_1578805418949"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "time": 150,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Oi, sou o assistente virtual da Paleta! Como você se chama?"
+              },
+              {
+                "text": "Olá! Sou o novo ajudante da Paleta. Como é seu nome?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_5_1578861326255",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1578861326284",
+      "previous_sibling": "handler_1_1578861326284"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1578861326255",
+      "context": {
+        "Costumer_name": "$costumer_name"
+      },
+      "conditions": "$costumer_name",
+      "event_name": "input",
+      "dialog_node": "handler_1_1578861326284"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1578012577377",
+      "variable": "$Viagens",
+      "conditions": "true",
+      "dialog_node": "slot_4_1578809052332",
+      "previous_sibling": "response_4_1578856326501"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 100,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Eu posso te ajudar com informações sobre os eventos da Paleta. Sei datas, preços, hospedagem e programação. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1578012577377",
+      "conditions": "true",
+      "dialog_node": "response_4_1578856326501",
+      "previous_sibling": "response_10_1578854531645"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 100,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Então você quer ir para $Viagens com a gente? O que gostaria de saber?"
+              },
+              {
+                "text": "Que bom que você se interessou pela nossa viagem para $Viagens! O que você quer saber?"
+              },
+              {
+                "text": "Que bom que você quer fazer parte dessa experiência! De qual informação você precisa? Posso te falar sobre hospedagem, preços, datas e programação."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_8_1578012577377",
+      "context": {
+        "Viagens": "<? @Viagens ?>"
+      },
+      "conditions": "@Viagens",
+      "dialog_node": "response_10_1578854531645"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1578006466019",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1578006466038",
+      "previous_sibling": "handler_9_1578006466038"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_6_1578006466019",
+      "context": {
+        "Viagens": "@Viagens"
+      },
+      "conditions": "@Viagens",
+      "event_name": "input",
+      "dialog_node": "handler_9_1578006466038"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_10_1578774072444",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1578693258336"
+      },
+      "conditions": "#Bot_Control_Reject_Response",
+      "dialog_node": "node_2_1578804098397",
+      "previous_sibling": "node_10_1578803987962"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O que gostaria?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1578774072444",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#Bot_Control_Approve_Response",
+      "dialog_node": "node_10_1578803987962"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "time": 200,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Sobre qual evento?"
+              },
+              {
+                "text": "De qual evento você está falando?"
+              },
+              {
+                "text": "De qual experiência você está falando?"
+              },
+              {
+                "text": "Você quer saber o valor de qual evento?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "slot_7_1578857138297",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1578857138323",
+      "previous_sibling": "handler_7_1578857138323"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1578857138297",
+      "context": {
+        "Viagens": "$Viagens"
+      },
+      "conditions": "$Viagens",
+      "event_name": "input",
+      "dialog_node": "handler_7_1578857138323"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1578807598651",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1578807598680",
+      "previous_sibling": "handler_4_1578807598680"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1578807598651",
+      "context": {
+        "Viagens": "@Viagens"
+      },
+      "conditions": "@Viagens",
+      "event_name": "input",
+      "dialog_node": "handler_4_1578807598680"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "time": 3,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Fico muito feliz por ter ajudado. "
+              },
+              {
+                "text": "Que bom que eu consegui te ajudar!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1578763272614",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1578774072444"
+      },
+      "conditions": "#Bot_Control_Approve_Response || #General_Positive_Feedback",
+      "dialog_node": "node_6_1578007535293",
+      "previous_sibling": "node_3_1578007704986"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Desculpa, ainda não estou preparado para te ajudar. Podemos tentar ajudar de outra forma.",
+            "options": [
+              {
+                "label": "Começar de novo",
+                "value": {
+                  "input": {
+                    "text": "Olá"
+                  }
+                }
+              },
+              {
+                "label": "Falar com um humano",
+                "value": {
+                  "input": {
+                    "text": "Isso é muito frustrante, eu quero falar com uma pessoa de verdade real."
+                  }
+                }
+              },
+              {
+                "label": "Sair",
+                "value": {
+                  "input": {
+                    "text": "Adeus."
+                  }
+                }
+              }
+            ],
+            "description": "O que você quer fazer?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1578763272614",
+      "conditions": "#Bot_Control_Reject_Response || #General_Negative_Feedback",
+      "dialog_node": "node_3_1578007704986"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1578859848817",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1578859848828",
+      "previous_sibling": "handler_7_1578859848828"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1578859848817",
+      "context": {
+        "Viagens": "@Viagens"
+      },
+      "conditions": "@Viagens",
+      "event_name": "input",
+      "dialog_node": "handler_7_1578859848828"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Vamo pra vários museus!!!"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "node_9_1578006785037",
+      "conditions": "$Viagens:(Nova Iorque)",
+      "dialog_node": "response_10_1578807411321",
+      "previous_sibling": "response_10_1578008910469"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vamos conhecer muitos Lugares em Roma e Florença"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1578006785037",
+      "context": {
+        "Place": "@Viagens"
+      },
+      "conditions": "$Viagens:Europa",
+      "dialog_node": "response_10_1578008910469",
+      "previous_sibling": "slot_2_1578862044990"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1578006785037",
+      "variable": "$Viagens",
+      "dialog_node": "slot_9_1578807598651",
+      "previous_sibling": "handler_1_1578807598335"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "PROG INHOTIM"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1578006785037",
+      "conditions": "$Viagens:Inhotim",
+      "dialog_node": "response_5_1578867228181",
+      "previous_sibling": "response_3_1578867192594"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1578006785037",
+      "variable": "$Viagens",
+      "dialog_node": "slot_2_1578862044990",
+      "previous_sibling": "slot_9_1578807598651"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "PROG CORDISBURgo"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1578006785037",
+      "conditions": "$Viagens:Cordisburgo",
+      "dialog_node": "response_3_1578867192594",
+      "previous_sibling": "response_10_1578807411321"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1578006785037",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1578807598335"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "time": 500,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "De qual viagem você está falando?"
+              },
+              {
+                "text": "Em qual destino você está interessado?"
+              },
+              {
+                "text": "Sobre qual experiência você está falando?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "slot_5_1578862009426",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1578862009441",
+      "previous_sibling": "handler_5_1578862009441"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1578862009426",
+      "context": {
+        "Viagens": "$Viagens"
+      },
+      "conditions": "$Viagens",
+      "event_name": "input",
+      "dialog_node": "handler_5_1578862009441"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "PREÇO EUROPA"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1578857112773",
+      "conditions": "$Viagens:Europa",
+      "dialog_node": "response_1_1578867925443",
+      "previous_sibling": "response_10_1578862822270"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Preço de Inhotim - COMPLETAR COM INFO"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1578857112773",
+      "conditions": "$Viagens:(Inhotim)",
+      "dialog_node": "response_5_1578862771015",
+      "previous_sibling": "response_6_1578858295779"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Preço de Cordisburgo - COMPLETAR COM INFO"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1578857112773",
+      "conditions": "$Viagens:(Cordisburgo)",
+      "dialog_node": "response_10_1578862822270",
+      "previous_sibling": "response_5_1578862771015"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1578857112773",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1578857137986",
+      "previous_sibling": "response_1_1578867925443"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1578857112773",
+      "variable": "$Viagens",
+      "dialog_node": "slot_2_1578859848817",
+      "previous_sibling": "handler_1_1578857137986"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_7_1578857112773",
+      "variable": "$Viagens",
+      "dialog_node": "slot_7_1578857138297",
+      "previous_sibling": "slot_2_1578859848817"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 1000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Preço de NY - Completar com Info"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1578857112773",
+      "conditions": "$Viagens:(Nova Iorque)",
+      "dialog_node": "response_6_1578858295779"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Estamos sempre por lá"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1578006430705",
+      "conditions": "$Viagens:Cordisburgo",
+      "dialog_node": "response_5_1578006633724",
+      "previous_sibling": "response_6_1578006464925"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1578006430705",
+      "variable": "$Viagens",
+      "dialog_node": "slot_6_1578006466019",
+      "previous_sibling": "handler_2_1578026392423"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1578006430705",
+      "variable": "$Viagens",
+      "dialog_node": "slot_5_1578862009426",
+      "previous_sibling": "slot_6_1578006466019"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Inhotim também é pertinho"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1578006430705",
+      "conditions": "$Viagens:Inhotim",
+      "dialog_node": "response_4_1578864603434",
+      "previous_sibling": "response_1_1578006654012"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Vamos agora em Janeiro! Partiu Itália?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1578006430705",
+      "conditions": "$Viagens:Europa",
+      "dialog_node": "response_1_1578006654012",
+      "previous_sibling": "response_5_1578006633724"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vamos para Nova Iorque em Abril!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1578006430705",
+      "conditions": "$Viagens:(Nova Iorque)",
+      "dialog_node": "response_6_1578006464925",
+      "previous_sibling": "slot_5_1578862009426"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1578006430705",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1578026392423"
+    },
+    {
+      "type": "standard",
+      "title": "Tchau",
+      "output": {
+        "generic": [
+          {
+            "time": 4,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Até mais. Fico feliz em ter ajudado! Se quiser, deixe uma mensagem com seu feedback."
+              },
+              {
+                "text": "Até a próxima! Espero que sua experiência seja transformadora."
+              },
+              {
+                "text": "Tchau! Estou torcendo para que dê tudo certo para sua viagem com a gente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1578693258336",
+      "previous_sibling": "node_10_1578803664425"
+    },
+    {
+      "type": "frame",
+      "title": "Datas",
+      "metadata": {
+        "callout": {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "": ""
+          },
+          "result_variable": "webhook_result_1"
+        },
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1578763272614"
+      },
+      "conditions": "#Data",
+      "dialog_node": "node_1_1578006430705",
+      "previous_sibling": "node_5_1578009335049"
+    },
+    {
+      "type": "standard",
+      "title": "No que você pode me ajudar?",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#General_Agent_Capabilities || #General_Info",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1578012577377",
+      "digress_out": "allow_all",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o que você gostaria."
+              },
+              {
+                "text": "Desculpe, não entendi! Qual informação você procura?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_3_1578693258336",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "frame",
+      "title": "Preços",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1578763272614"
+      },
+      "conditions": "#Preços",
+      "dialog_node": "node_7_1578857112773",
+      "previous_sibling": "node_8_1578012577377"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "time": 1000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Tudo bem, neste caso mande um e-mail para blá ou entre em contato pelo telefone tal"
+              },
+              {
+                "text": "Para falar com o Renan mande um e-mail para blablabla@teste.com"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1578774072444"
+      },
+      "conditions": "#General_Connect_to_Agent",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1578803664425",
+      "previous_sibling": "node_10_1578774072444"
+    },
+    {
+      "type": "standard",
+      "title": "Algo mais?",
+      "output": {
+        "generic": [
+          {
+            "time": 1500,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Posso te ajudar em mais alguma coisa?"
+              },
+              {
+                "text": "Quer mais alguma informação?"
+              },
+              {
+                "text": "Precisa saber mais alguma coisa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "dialog_node": "node_10_1578774072444",
+      "previous_sibling": "node_10_1578763272614"
+    },
+    {
+      "type": "standard",
+      "title": "Essa informação foi útil?",
+      "output": {
+        "generic": [
+          {
+            "time": 350,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Essa informação foi útil?"
+              },
+              {
+                "text": "Isso te ajuda de alguma forma?"
+              },
+              {
+                "text": "Eu te ajudei?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "dialog_node": "node_10_1578763272614",
+      "previous_sibling": "node_9_1578006785037"
+    },
+    {
+      "type": "frame",
+      "title": "Hospedagem",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Hoteis",
+      "dialog_node": "node_5_1578009335049",
+      "previous_sibling": "node_7_1578857112773"
+    },
+    {
+      "type": "frame",
+      "title": "Programação",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Programação",
+      "dialog_node": "node_9_1578006785037",
+      "previous_sibling": "node_1_1578006430705"
+    },
+    {
+      "type": "standard",
+      "title": "Saudações",
+      "output": {
+        "generic": [
+          {
+            "time": 300,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Olá, bem vindo! Posso te ajudar com informações básicas sobre os eventos da Paleta!"
+              },
+              {
+                "text": "Olá, sou o assistente virtual da Paleta Cultural. O que você gostaria de saber sobre nossos eventos?"
+              },
+              {
+                "text": "Olá! Bem vindo à Paleta. O que você procura?"
+              },
+              {
+                "text": "Olá! Precisa de ajuda? Posso te dar informações básicas sobre os eventos da Paleta."
+              },
+              {
+                "text": "Oi, procurando alguma coisa? Posso te ajudar com informações sobre as nossas viagens para Nova Iorque, Inhotim, Cordisburgo e Europa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "context": {},
+      "metadata": {
+        "callout": {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "": ""
+          },
+          "result_variable": "webhook_result_1"
+        },
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "welcome || #General_Greetings",
+      "dialog_node": "Bem-vindo"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": false,
+      "max_suggestions": 3,
+      "suggestion_text_policy": "title"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Chat paleta",
+  "language": "pt-br",
+  "description": "Serviço ao consumidor da Paleta Cultural"
+}
